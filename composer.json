@@ -1,0 +1,21 @@
+{
+    "name": "beaueva/tp-composer",
+    "description": "Petit projet pour découvrir Composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Beaueva\\TpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evan BEAUVERGER"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.8",
+        "symfony/dotenv": "^7.2",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
